@@ -64,7 +64,12 @@ function About() {
           ></a>
         </li>
         <div className="btn-wrapper">
-          <a href={assets.cv} downloads="" target="_blank" className="chip">
+          <a
+            href={assets.Delon_Pratama_CV}
+            downloads=""
+            target="_blank"
+            className="chip"
+          >
             <span className="label-large">Download CV</span>
             <div className="state-layer"></div>
           </a>
