@@ -7,7 +7,7 @@ function Footer() {
     <footer className="footer">
       <div className="container">
         <p className="body-medium">
-          &copy; Copyright {currentYear}. All rights reserved by deloooonp.
+          &copy; Copyright {currentYear}. All rights reserved by deloooonp. test
         </p>
       </div>
     </footer>
