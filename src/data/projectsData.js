@@ -37,7 +37,7 @@ export const projectsData = [
     ],
   },
   {
-    title: "Laravel BookAPI - RESTful API",
+    title: "Laravel Book API - RESTful API",
     image: assets.restapi,
     type: "RESTful API",
     link: "https://github.com/deloooonp/laravel-12-bookapi",
