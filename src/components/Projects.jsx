@@ -12,9 +12,9 @@ function Projects({ activeTab }) {
     >
       <div className="container">
         <div className="project-list">
-          {projectsData.map((project, index) => (
-            <Tilty scale={1.08}>
-              <div className="card" key={index}>
+          {projectsData.map((project) => (
+            <Tilty scale={1.08} key={project.id}>
+              <div className="card">
                 <figure
                   className="card-banner img-holder"
                   style={{ "--width": 334, "--height": 180 }}
@@ -33,8 +33,8 @@ function Projects({ activeTab }) {
                   </span>
                   <h3 className="title-large card-title">{project.title}</h3>
                   <ul className="project-skills-list">
-                    {project.skills.map((skill, skillIndex) => (
-                      <li key={skillIndex}>
+                    {project.skills.map((skill) => (
+                      <li key={skill.id}>
                         <img
                           src={skill.img}
                           width="21"
