@@ -1,0 +1,58 @@
+/*-----------------------------------*\
+  #HERO
+\*-----------------------------------*/
+
+.hero {
+  padding-block-start: calc(var(--top-bar-height) + 24px);
+}
+
+.hero .container {
+  display: grid;
+  align-items: center;
+  gap: 24px;
+}
+
+.hero-banner {
+  width: 240px;
+  border-radius: 20px;
+}
+
+.hero-content {
+  max-width: 500px;
+  margin-bottom: auto;
+}
+
+.type-container span {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.auto-type {
+  color: var(--on-background);
+}
+
+.typed-cursor {
+  color: var(--on-background);
+}
+
+.hero .section-subtitle {
+  color: var(--on-surface-variant);
+  font-weight: 700;
+}
+
+.hero-name {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.hero .section-text {
+  margin-block: 5px 16px;
+  color: var(--on-surface-variant);
+}
+
+.hero .btn-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}

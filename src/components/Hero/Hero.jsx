@@ -1,7 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import Typed from "typed.js";
-import { assets } from "../assets";
+import { assets } from "../../assets";
+import "./Hero.css";
 
 function Hero() {
   const heroRef = useRef(null);

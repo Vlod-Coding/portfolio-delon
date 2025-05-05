@@ -4,7 +4,8 @@ import {
   education,
   certificates,
   skills,
-} from "../data/resumeData";
+} from "../../../data/resumeData";
+import "./Resume.css";
 
 export default function Resume({ activeTab }) {
   return (

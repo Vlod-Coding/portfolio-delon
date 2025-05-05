@@ -1,6 +1,7 @@
 import React from "react";
 import Tilty from "react-tilty";
-import { projectsData } from "../data/projectsData";
+import { projectsData } from "../../../data/projectsData";
+import "./Projects.css";
 
 function Projects({ activeTab }) {
   return (
@@ -33,8 +34,8 @@ function Projects({ activeTab }) {
                   </span>
                   <h3 className="title-large card-title">{project.title}</h3>
                   <ul className="project-skills-list">
-                    {project.skills.map((skill) => (
-                      <li key={skill.id}>
+                    {project.skills.map((skill, skillIndex) => (
+                      <li key={skillIndex}>
                         <img
                           src={skill.img}
                           width="21"

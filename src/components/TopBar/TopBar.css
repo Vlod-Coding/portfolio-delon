@@ -1,0 +1,42 @@
+/*-----------------------------------*\
+  #TOP BAR
+\*-----------------------------------*/
+
+.topbar {
+  background-color: var(--background);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--top-bar-height);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 16px;
+  z-index: 4;
+}
+
+[data-theme="dark"] .logo .light,
+[data-theme="light"] .logo .dark {
+  display: none;
+}
+
+[data-theme="dark"] .logo .dark,
+[data-theme="light"] .logo .light {
+  display: block;
+}
+
+.theme-btn {
+  color: var(--on-surface-variant);
+  --state-layer-bg: var(--on-surface-variant);
+  border-radius: var(--radius-full);
+}
+
+[data-theme="dark"] .theme-btn .dark,
+[data-theme="light"] .theme-btn .light {
+  display: none;
+}
+
+.brand-logo {
+  font-family: "Orbitron", sans-serif;
+}

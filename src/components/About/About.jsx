@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
-import { assets } from "../assets";
+import { assets } from "../../assets";
+import "./About.css";
 
 function About() {
   const aboutRef = useRef(null);

@@ -73,5 +73,5 @@ export const skills = [
   { name: "MySQL", img: assets.mysql },
   { name: "SQL", img: assets.sql },
   { name: "Git", img: assets.git },
-  { name: "Figma", img: assets.figma },
+  { name: "Three.js", img: assets.threejs },
 ];
