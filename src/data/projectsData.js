@@ -7,15 +7,11 @@ export const projectsData = [
     image: assets.portfolio,
     type: "Web App",
     link: "https://deloooonp.vercel.app/",
-    skills: [
-      { img: assets.react },
-      { img: assets.gsap },
-      { img: assets.nodejs },
-    ],
+    skills: [{ img: assets.react }, { img: assets.gsap }],
   },
   {
     id: 2,
-    title: "iPhone 15 Pro Website Clone",
+    title: "iPhone 15 Pro - Website Clone",
     image: assets.iphone15,
     type: "Web App",
     link: "https://iphone15-deloooonp.vercel.app/",
@@ -23,7 +19,7 @@ export const projectsData = [
       { img: assets.react },
       { img: assets.gsap },
       { img: assets.threejs },
-      { img: assets.nodejs },
+      { img: assets.tailwindcss },
     ],
   },
   {
