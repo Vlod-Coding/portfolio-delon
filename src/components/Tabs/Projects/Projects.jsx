@@ -2,6 +2,7 @@ import React from "react";
 import Tilty from "react-tilty";
 import { projectsData } from "../../../data/projectsData";
 import "./Projects.css";
+import { assets } from "../../../assets";
 
 function Projects({ activeTab }) {
   return (
@@ -57,6 +58,17 @@ function Projects({ activeTab }) {
               </div>
             </Tilty>
           ))}
+        </div>
+        <div className="project-bottom-item">
+          <span className="material-symbols-outlined icon-m" aria-hidden="true">
+            <img src={assets.github} alt="" />
+          </span>
+          <span className="label-large">See More Projects</span>
+          <a
+            href="https://github.com/deloooonp?tab=repositories"
+            className="state-layer"
+            target="_blank"
+          ></a>
         </div>
       </div>
     </section>

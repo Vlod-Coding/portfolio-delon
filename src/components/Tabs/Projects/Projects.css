@@ -13,3 +13,14 @@
   display: flex;
   gap: 12px;
 }
+
+.project-bottom-item {
+  background-color: var(--surface-container);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px;
+  border-radius: var(--radius-small);
+  --state-layer-bg: var(--on-surface-variant);
+  justify-content: center;
+}
