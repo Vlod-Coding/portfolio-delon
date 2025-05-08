@@ -6,6 +6,8 @@ import Tabs from "./components/Tabs/Tabs";
 import Footer from "./components/Footer/Footer";
 import Loader from "./components/Loader/Loader";
 
+import { Analytics } from "@vercel/analytics/react";
+
 function App() {
   const [activeTab, setActiveTab] = useState("projects");
 
@@ -25,6 +27,7 @@ function App() {
       </main>
       <Footer />
       <Loader />
+      <Analytics />
     </>
   );
 }
