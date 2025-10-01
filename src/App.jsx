@@ -5,7 +5,6 @@ import About from "./components/About/About";
 import Tabs from "./components/Tabs/Tabs";
 import Footer from "./components/Footer/Footer";
 import Loader from "./components/Loader/Loader";
-
 import { Analytics } from "@vercel/analytics/react";
 
 function App() {

@@ -3,7 +3,7 @@ import { assets } from "../assets";
 export const experiences = [
   {
     name: "Web Development Projects",
-    date: "2023 - 2024",
+    date: "2023 - Current",
     desc: "During my college studies, I worked on several web development projects that showcase my skills in front-end and back-end development.",
   },
 ];
